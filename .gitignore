@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+node_modules
+build
+distribution.json
+pre-distribution.json

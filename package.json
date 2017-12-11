@@ -3,21 +3,24 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "zeppelin-solidity": "^1.3.0"
+    "zeppelin-solidity": "^1.4.0"
   },
   "devDependencies": {
     "ethereumjs-abi": "^0.6.4",
-    "ethereumjs-testrpc": "^3.0.3",
-    "truffle-core": "^3.4.11"
+    "ethereumjs-testrpc": "^6.0.1",
+    "truffle-core": "^4.0.1"
   },
   "scripts": {
     "compile": "truffle compile",
     "deploy-dev": "truffle exec scripts/deploy.js",
     "deploy-ropsten": "truffle exec --network ropsten scripts/deploy.js",
+    "deploy-main": "truffle exec --network main scripts/deploy.js",
     "mint-dev": "truffle exec scripts/mint.js",
     "mint-ropsten": "truffle exec --network ropsten scripts/mint.js",
+    "mint-main": "truffle exec --network main scripts/mint.js",
     "finish-dev": "truffle exec scripts/finish.js",
     "finish-ropsten": "truffle exec --network ropsten scripts/finish.js",
+    "finish-main": "truffle exec --network main scripts/finish.js",
     "testrpc": "testrpc -i 42 -p 8888",
     "test": "truffle test"
   }

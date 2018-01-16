@@ -21,6 +21,9 @@
     "finish-dev": "truffle exec scripts/finish.js",
     "finish-ropsten": "truffle exec --network ropsten scripts/finish.js",
     "finish-main": "truffle exec --network main scripts/finish.js",
+    "transfer-dev": "truffle exec scripts/transfer.js",
+    "transfer-ropsten": "truffle exec --network ropsten scripts/transfer.js",
+    "transfer-main": "truffle exec --network main scripts/transfer.js",
     "testrpc": "testrpc -i 42 -p 8888",
     "test": "truffle test"
   }
